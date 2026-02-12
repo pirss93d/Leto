@@ -361,7 +361,9 @@ template {
 /* ***************** */
 /* ***************** */
 /* ***************** */
-
+body {
+  overflow-x: hidden;
+}
 .Authorization {
   display: flex;
   justify-content: space-around;
