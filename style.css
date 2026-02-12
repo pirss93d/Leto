@@ -396,9 +396,9 @@ body {
 }
 
 .logo {
-  max-width: 850px;
+  max-width: 900px;
   height: 1001px;
-  background-color: teal;
+
   animation: rotation 22s linear infinite;
 }
 @keyframes rotation {
