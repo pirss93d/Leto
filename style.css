@@ -362,8 +362,6 @@ template {
 /* ***************** */
 /* ***************** */
 
-body {
-}
 .Authorization {
   display: flex;
   justify-content: space-around;
@@ -372,6 +370,7 @@ body {
   margin: 0 auto;
   max-width: 1920px;
   height: 100%;
+  overflow: hidden;
 }
 .Welcom {
   margin-top: 125px;
@@ -391,12 +390,15 @@ body {
 
 .Welcom_form {
   margin-top: 151px;
+
   width: 600px;
   height: 364px;
 }
 
 .logo {
-  max-width: 900px;
+  overflow: hidden;
+  margin-top: 39px;
+  max-width: 850px;
   height: 1001px;
   animation: rotation 22s linear infinite;
 }
@@ -417,7 +419,7 @@ body {
 #password {
   width: 100%;
   height: 59px;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
   border-radius: 20px;
   font-size: 40px;
   border-width: 0;
