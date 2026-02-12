@@ -398,7 +398,6 @@ body {
 .logo {
   max-width: 900px;
   height: 1001px;
-
   animation: rotation 22s linear infinite;
 }
 @keyframes rotation {
